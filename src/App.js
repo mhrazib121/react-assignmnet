@@ -12,7 +12,7 @@ function App() {
       <Routes>
         <Route path='/' element={<Explore/>}/>
         <Route path='/profile' element={<Profile/>}/>
-        <Route path=':id' element={<Home/>}/>
+        <Route path='/home' element={<Home/>}/>
       </Routes>
       </BrowserRouter>
     </div>
